@@ -1,0 +1,28 @@
+#heads {
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+#tails {
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    border-radius: 60px;
+}
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    /**/
+    padding: 20px;
+    margin: 10px;
+    background: wheat;
+    color: green;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 2px dashed burlywood;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px cornsilk, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px #1c2d91;
+    font-weight: normal;
+}
