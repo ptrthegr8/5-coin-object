@@ -7,7 +7,7 @@ var coin = {
     },
     toString: function () {
         // return “H” or “T” depending on whether this.state is 0 or 1
-        switch (this.state) {
+        switch (this.flip()) {
             case 0:
                 return "H";
                 break;
@@ -18,7 +18,7 @@ var coin = {
     toHTML: function () {
         var img = document.createElement("img");
         // set the properties of the image element to show either heads or tails
-        switch (coin.toString()) {
+        switch (this.toString()) {
             case "H":
                 img.setAttribute("id", "heads");
                 img.setAttribute("src", "photos/pepsi_logo.png");
