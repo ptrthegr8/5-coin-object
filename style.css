@@ -1,11 +1,19 @@
 #heads {
     margin: 0 auto;
+<<<<<<< HEAD
     /* border: 1px solid red; */
+=======
+    border: 1px solid red;
+>>>>>>> d4b15c0eadce32d96f4b6e4550ae9ada9b5a89fc
     border-radius: 10px;
 }
 #tails {
     margin: 0 auto;
+<<<<<<< HEAD
     /* border: 1px solid black; */
+=======
+    border: 1px solid black;
+>>>>>>> d4b15c0eadce32d96f4b6e4550ae9ada9b5a89fc
     border-radius: 60px;
 }
 body {
